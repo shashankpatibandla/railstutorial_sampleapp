@@ -66,6 +66,8 @@ Rails.application.configure do
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.delivery_method = :smtp
+  host = 'sample-app-shashank.herokuapp.com'
+  config.action_mailer.default_url_options = { host: host }
   config.action_mailer.smtp_settings = {
     :user_name => '46f5ae704b6ead',
     :password => '8f923205b5d46b',
