@@ -1,0 +1,26 @@
+# -*- shell-script -*-
+# Copyright 1999-2019 ImageMagick Studio LLC
+# Definitions of optional features and configuration values for this build.
+# Intended for use by test scripts.
+MAGICK_FEATURES='DPC HDRI Cipher OpenMP'
+top_srcdir='/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25'
+top_builddir='/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25'
+
+set -a
+COMPARE="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/utilities/magick compare"
+COMPOSITE="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/utilities/magick composite"
+CONJURE="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/utilities/magick conjure"
+CONVERT="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/utilities/magick convert"
+DISPLAY="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/utilities/magick display"
+IDENTIFY="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/utilities/magick identify"
+MAGICK="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/utilities/magick"
+MONTAGE="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/utilities/magick montage"
+VALIDATE="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/tests/validate"
+DRAWTEST="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/tests/drawtest"
+WANDTEST="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/tests/wandtest"
+LD_LIBRARY_PATH="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/MagickCore/.libs:/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/MagickWand/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/coders"
+MAGICK_CONFIGURE_PATH="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/config:/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/config"
+MAGICK_FILTER_MODULE_PATH="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/filters"
+PATH="/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/utilities:/host_folder/Development/rails_tutorial/sample_app_shashank/ImageMagick-7.0.8-25/tests:${PATH}"
+set +a
